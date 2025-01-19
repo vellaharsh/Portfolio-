@@ -1,0 +1,460 @@
+/* *{
+
+    box-sizing: border-box;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+}
+
+.menu_bar{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:0%;
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+.logo span{
+    color:#0fff00;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li {
+    padding: 10px 30px;
+}
+
+.menu_bar ul li a{   
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20 16;
+    font-size: 12;
+    text-transform: uppercase;
+    transition:all 0.3s ;
+}    
+/* .menu_bar ul li a{   
+    float: left;
+    color: #000;
+    display: flex;
+    text-align:center;
+    width: 100px;
+    padding: 20px 16px;
+    font-size: 14;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase; 
+}*/
+
+.menu_bar a:hover{
+    background-color: #03fc56c9;
+    text-overflow: clip;
+}
+.img1{
+    position: relative;
+}
+
+div img{
+    align-items: center;
+    width :100%;
+    height: 450px;
+
+    margin: auto;
+}
+.img_text{
+    position: absolute;
+    top:59%;
+    left:6%;
+    padding: 40px;
+    color:aliceblue;
+    font-size:25px;
+    font-family: sans-serif;
+}
+    /* text tag */
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.text {
+    flex: 4;
+    padding:20px 20px 20px 20px;
+    /* background-color: #f4f4f4; */
+}
+
+.bullet-points {
+    flex: 1;
+    padding: 10px 10px 10px 50px;
+    text-decoration: none; 
+    display:block;
+    color: #fff;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+
+}
+
+.az{
+    color: #333;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* .bullet-points li::before { */
+    /* content: "\2022"; Bullet point Unicode character */
+    /* color: #3498db; Bullet point color */
+    /* font-size: 20px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
+
+/* .container{
+    width: 100%px;
+    height: 50px;
+    padding-left:90px;
+    margin-left: 40px;
+    align-content: left;
+    font-size: 16;
+}
+
+.container2{
+    width: 100%px;
+    height: 50px;
+    padding: 20px 0px 0px 90px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-size:20px ;
+    align-content: left;
+
+}
+.s2{
+    padding: 80px 13% 70px;
+} */
+/* div p{ */
+    /* width: 150;
+    height: 150;
+    padding: 20;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42; */ 
+    
+
+/* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+} */
+
+
+/* soil images */
+
+.soil {
+    display: inline-flex;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 10px 10px 10px 150px;
+}
+
+.image01{
+    flex: 1;
+    overflow: hidden;
+    width: 80px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 50px; */
+    /* align-items: left; */
+}
+
+.image01 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.image01 img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+}
+.image01 a{
+    text-decoration: none;
+    text-align:right;
+    text-emphasis-position: right;
+    color: black;
+}
+
+.image-overlay01 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image01:hover .image-overlay {
+    opacity: 1;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.image-overlay01 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+    box-sizing: fixed;
+    /* background-color: #f4f4f4; */
+    display: block;
+}
+.info a{
+    text-decoration: none;
+    text-align:right;
+    text-emphasis-position: right;
+    color: black;
+}
+
+.info h2 {
+    color: #333;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* images links */
+
+.cont {
+    max-width: 800px;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.image-card {
+    flex: 0 0 30%; /* Flex property for 30% width with some margin */
+    position: relative;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.image-card a{
+    text-decoration: none;
+    text-align:right;
+    text-emphasis-position: right;
+    color: black;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+    opacity: 1;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.image-overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* AGRICULTURE LAND PAGE*/
+
+.box{
+    display: flex;
+    max-width: 950px;
+    margin: 13px auto;
+    left:6%;
+}
+
+.imagebox{
+    position: relative;
+    flex: 0 0 30%; /* Flex property for 30% width */
+    margin-right: 20px;
+}
+
+.imagebox img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:50px auto;
+}
+
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: none;
+}
+
+.imagebox :hover .caption {
+    display: block;
+}
+
+.description {
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+   /* footer tag */
+
+
+
+footer {
+    background:linear-gradient(to right,#00093c,#2d0b00) ;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+h2 {
+    color: #349161;
+}
+
+.about0{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer-links a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffcc00;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin:10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+.copywrite .k02 {
+    color: white;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
